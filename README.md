@@ -24,8 +24,7 @@ A PySpark-based data pipeline for StreamFlix that ingests raw subscriber, plan, 
 6. [Analytics Outputs](#6-analytics-outputs)
 7. [Archive Strategy](#7-archive-strategy)
 8. [How to Run](#8-how-to-run)
-9. [Configuration Reference](#9-configuration-reference)
-10. [Design Decisions](#10-design-decisions)
+9. [Design Decisions](#10-design-decisions)
 
 ---
 

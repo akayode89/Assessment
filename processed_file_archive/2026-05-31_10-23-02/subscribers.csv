@@ -1,0 +1,31 @@
+subscriber_id,name,email,phone,country,signup_date,age
+SUB001,John Smith,john.smith@email.com,555-123-4567,USA,2024-01-15,34
+SUB002,Jane Doe,jane.doe@email.com,(555) 234.5678,Canada,2024-02-20,28
+SUB003,,invalid-email,5551234567,U.K.,2024-03-10,45
+SUB004,Bob Johnson,bob.j@email.com,555.345.6789,united states,2024-01-25,52
+SUB005,Alice Williams,alice.w@email.com,555-456-7890,England,2024-04-05,31
+SUB006,Charlie Brown,,555 567 8901,US,2024-02-14,29
+SUB007,Diana Prince,diana.p@email.com,5556789012,Unknown,2024-03-22,38
+SUB008,Eve Martinez,eve.m@email.com,555-678-9012,CAN,2024-05-11,41
+SUB009,,frank.o@email.com,(555)789-0123,Canada,2024-01-30,27
+SUB010,Grace Lee,grace.l@email.com,555-890-1234,USA,2024-06-18,33
+SUB011,Henry Davis,henry.d@email.com,555.901.2345,,2024-02-28,36
+SUB012,Iris Chen,iris.c@email.com,555-012-3456,U.K.,2024-04-12,44
+SUB013,Jack Wilson,jack.w@email.com,5550123456,united states,2024-03-08,29
+SUB014,Kate Brown,kate.b@email.com,555 234 5678,US,2024-05-20,31
+SUB015,Liam Taylor,liam.t@email.com,(555) 345-6789,Canada,2024-01-19,48
+SUB016,Mia Anderson,mia.a@email.com,555-456-7890,USA,2024-07-03,26
+SUB017,,invalid.email.format,555.567.8901,England,2024-02-25,39
+SUB018,Noah Thomas,noah.t@email.com,555-678-9012,CAN,2024-04-30,35
+SUB019,Olivia Moore,olivia.m@email.com,5557890123,,2024-03-15,42
+SUB020,Paul Jackson,paul.j@email.com,555-890-1234,USA,2024-06-22,30
+SUB021,Quinn White,quinn.w@email.com,555.901.2345,U.K.,2024-05-08,37
+SUB022,Rachel Green,rachel.g@email.com,555-012-3456,united states,2024-02-11,28
+SUB023,Sam Harris,john.smith@email.com,(555)123-4567,US,2024-01-10,34
+SUB024,Tina Clark,tina.c@email.com,555 345 6789,Canada,2024-07-15,46
+SUB025,Uma Patel,uma.p@email.com,555-456-7890,USA,2024-03-28,32
+SUB026,Victor Lopez,,555.567.8901,England,2024-04-19,29
+SUB027,Wendy King,wendy.k@email.com,5556789012,CAN,2024-05-25,40
+SUB028,,xavier.s@email.com,555-789-0123,Unknown,2024-02-07,33
+SUB029,Yara Ahmed,yara.a@email.com,555-890-1234,USA,2024-06-30,27
+SUB030,Zoe Baker,zoe.b@email.com,555.901.2345,U.K.,2024-01-22,38

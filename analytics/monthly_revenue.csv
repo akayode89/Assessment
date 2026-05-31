@@ -1,0 +1,24 @@
+subscription_month,billing_country,plan_tier,total_revenue,num_active_subscriptions,avg_price_in_effect
+2024-01,Canada,Basic,19.98,2,9.99
+2024-01,United Kingdom,Premium,19.99,1,19.99
+2024-02,Canada,Basic,8.99,1,8.99
+2024-02,Canada,Standard,14.99,1,14.99
+2024-02,United States,Premium,19.99,1,19.99
+2024-02,Unknown,Basic,9.99,1,9.99
+2024-03,Canada,Premium,23.99,1,23.99
+2024-03,United States,Standard,16.99,1,16.99
+2024-03,Unknown,Standard,48.97,3,16.32
+2024-04,United Kingdom,Basic,10.99,1,10.99
+2024-04,United States,Standard,15.99,1,15.99
+2024-05,Canada,Basic,8.99,1,8.99
+2024-05,United Kingdom,Basic,10.99,1,10.99
+2024-05,United Kingdom,Premium,21.99,1,21.99
+2024-05,United States,Basic,11.99,1,11.99
+2024-05,United States,Premium,22.99,1,22.99
+2024-06,Canada,Premium,22.99,1,22.99
+2024-06,United Kingdom,Basic,9.99,1,9.99
+2024-06,United States,Basic,10.99,1,10.99
+2024-06,United States,Premium,45.98,2,22.99
+2024-07,Canada,Premium,21.99,1,21.99
+2024-07,Canada,Standard,16.99,1,16.99
+2024-07,United States,Basic,21.98,2,10.99

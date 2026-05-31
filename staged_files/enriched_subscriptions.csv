@@ -1,0 +1,29 @@
+subscriber_id,plan_id,subscription_id,subscription_start_date,subscription_end_date,status,billing_country,monthly_charge,satisfaction_rating,plan_tier,actual_monthly_price,current_price,total_subscriptions,duration_days,long_term_subscriber,subscription_month,price_variance,name,email,country,age,signup_date
+SUB002,PLAN002,SUBS0002,2024-02-25,2024-08-25,active,Canada,14.99,4.2,Standard,14.99,16.99,1,182,false,2024-02,-2.0,Jane Doe,jane.doe@email.com,Canada,28,2024-02-20
+SUB004,PLAN003,SUBS0003,2024-02-01,2024-08-01,active,United States,19.99,4.8,Premium,19.99,21.99,2,182,false,2024-02,-2.0,Bob Johnson,bob.j@email.com,United States,52,2024-01-25
+SUB004,PLAN006,SUBS0027,2024-06-10,,active,United States,23.99,4.6,Premium,23.99,23.99,2,720,true,2024-06,0.0,Bob Johnson,bob.j@email.com,United States,52,2024-01-25
+SUB005,PLAN001,SUBS0004,2024-04-10,2024-10-10,active,United Kingdom,10.99,3.9,Basic,10.99,11.99,2,183,false,2024-04,-1.0,Alice Williams,alice.w@email.com,United Kingdom,31,2024-04-05
+SUB005,PLAN007,SUBS0031,2024-06-15,,active,United Kingdom,0.0,3.7,Basic,9.99,9.99,2,715,true,2024-06,0.0,Alice Williams,alice.w@email.com,United Kingdom,31,2024-04-05
+SUB007,PLAN002,SUBS0005,2024-03-25,2024-09-25,active,Unknown,15.99,4.1,Standard,15.99,16.99,1,184,true,2024-03,-1.0,Diana Prince,diana.p@email.com,Unknown,38,2024-03-22
+SUB008,PLAN006,SUBS0006,2024-03-15,2024-09-15,active,Canada,23.99,4.7,Premium,23.99,23.99,2,184,true,2024-03,0.0,Eve Martinez,eve.m@email.com,Canada,41,2024-05-11
+SUB008,PLAN001,SUBS0032,2024-01-30,2024-07-30,active,Canada,9.99,4.4,Basic,9.99,11.99,2,182,false,2024-01,-2.0,Eve Martinez,eve.m@email.com,Canada,41,2024-05-11
+SUB009,PLAN007,SUBS0007,2024-02-05,2024-08-05,active,Canada,8.99,4.0,Basic,8.99,9.99,1,182,false,2024-02,-1.0,Unknown,frank.o@email.com,Canada,27,2024-01-30
+SUB010,PLAN001,SUBS0008,2024-06-20,,active,United States,0.0,4.3,Basic,10.99,11.99,1,710,true,2024-06,-1.0,Grace Lee,grace.l@email.com,United States,33,2024-06-18
+SUB011,PLAN008,SUBS0009,2024-03-01,2024-09-01,active,Unknown,16.99,4.6,Standard,16.99,16.99,1,184,true,2024-03,0.0,Henry Davis,henry.d@email.com,Unknown,36,2024-02-28
+SUB012,PLAN003,SUBS0010,2024-05-15,,active,United Kingdom,21.99,4.4,Premium,21.99,21.99,1,746,true,2024-05,0.0,Iris Chen,iris.c@email.com,United Kingdom,44,2024-04-12
+SUB014,PLAN009,SUBS0012,2024-05-25,,active,United States,22.99,4.5,Premium,22.99,22.99,1,736,true,2024-05,0.0,Kate Brown,kate.b@email.com,United States,31,2024-05-20
+SUB015,PLAN001,SUBS0013,2024-01-25,2024-07-25,active,Canada,9.99,4.1,Basic,9.99,11.99,2,182,false,2024-01,-2.0,Liam Taylor,liam.t@email.com,Canada,48,2024-01-19
+SUB015,PLAN003,SUBS0033,2024-07-10,,active,Canada,21.99,4.5,Premium,21.99,21.99,2,690,true,2024-07,0.0,Liam Taylor,liam.t@email.com,Canada,48,2024-01-19
+SUB016,PLAN010,SUBS0014,2024-07-05,,active,United States,11.99,4.2,Basic,11.99,11.99,1,695,true,2024-07,0.0,Mia Anderson,mia.a@email.com,United States,26,2024-07-03
+SUB018,PLAN007,SUBS0015,2024-05-01,,active,Canada,9.99,3.8,Basic,8.99,9.99,1,760,true,2024-05,-1.0,Noah Thomas,noah.t@email.com,Canada,35,2024-04-30
+SUB019,PLAN002,SUBS0016,2024-03-20,2024-09-20,active,Unknown,15.99,4.3,Standard,15.99,16.99,1,184,true,2024-03,-1.0,Olivia Moore,olivia.m@email.com,Unknown,42,2024-03-15
+SUB020,PLAN003,SUBS0017,2024-06-25,,active,United States,21.99,4.6,Premium,21.99,21.99,2,705,true,2024-06,0.0,Paul Jackson,paul.j@email.com,United States,30,2024-06-22
+SUB020,PLAN010,SUBS0034,2024-05-20,,active,United States,11.99,4.1,Basic,11.99,11.99,2,741,true,2024-05,0.0,Paul Jackson,paul.j@email.com,United States,30,2024-06-22
+SUB021,PLAN001,SUBS0018,2024-05-10,,active,United Kingdom,10.99,4.0,Basic,10.99,11.99,1,751,true,2024-05,-1.0,Quinn White,quinn.w@email.com,United Kingdom,37,2024-05-08
+SUB024,PLAN008,SUBS0020,2024-07-20,,active,Canada,16.99,4.4,Standard,16.99,16.99,1,680,true,2024-07,0.0,Tina Clark,tina.c@email.com,Canada,46,2024-07-15
+SUB025,PLAN002,SUBS0021,2024-04-01,2024-10-01,active,United States,15.99,4.5,Standard,15.99,16.99,2,183,false,2024-04,-1.0,Uma Patel,uma.p@email.com,United States,32,2024-03-28
+SUB025,PLAN008,SUBS0035,2024-03-05,2024-09-05,active,United States,16.99,4.3,Standard,16.99,16.99,2,184,true,2024-03,0.0,Uma Patel,uma.p@email.com,United States,32,2024-03-28
+SUB027,PLAN009,SUBS0022,2024-06-01,,active,Canada,22.99,4.7,Premium,22.99,22.99,1,729,true,2024-06,0.0,Wendy King,wendy.k@email.com,Canada,40,2024-05-25
+SUB028,PLAN001,SUBS0023,2024-02-10,2024-08-10,active,Unknown,9.99,3.9,Basic,9.99,11.99,1,182,false,2024-02,-2.0,Unknown,xavier.s@email.com,Unknown,33,2024-02-07
+SUB029,PLAN007,SUBS0024,2024-07-01,,active,United States,9.99,4.2,Basic,9.99,9.99,1,699,true,2024-07,0.0,Yara Ahmed,yara.a@email.com,United States,27,2024-06-30
+SUB030,PLAN003,SUBS0025,2024-01-25,2024-07-25,active,United Kingdom,19.99,4.8,Premium,19.99,21.99,1,182,false,2024-01,-2.0,Zoe Baker,zoe.b@email.com,United Kingdom,38,2024-01-22

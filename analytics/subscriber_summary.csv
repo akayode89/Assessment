@@ -2,10 +2,10 @@ billing_country,plan_tier,num_subscribers,total_revenue,avg_satisfaction,num_sub
 Canada,Basic,4,37.96,4.07,4
 Canada,Premium,3,68.97,4.63,3
 Canada,Standard,2,31.98,4.3,2
-United Kingdom,Basic,3,31.97,3.87,3
+United Kingdom,Basic,2,31.97,3.87,3
 United Kingdom,Premium,2,41.98,4.6,2
 United States,Basic,4,44.96,4.2,4
-United States,Premium,4,88.96,4.63,4
-United States,Standard,2,32.98,4.4,2
+United States,Premium,3,88.96,4.63,4
+United States,Standard,1,32.98,4.4,2
 Unknown,Basic,1,9.99,3.9,1
 Unknown,Standard,3,48.97,4.33,3

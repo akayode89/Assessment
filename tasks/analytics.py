@@ -45,22 +45,6 @@ log = logging.getLogger(__name__)
 # HELPERS
 # ─────────────────────────────────────────────────────────────────────────────
 
-# def write_single_csv(df, path: Path) -> None:
-#     """Coalesce to 1 partition and write a clean single-file CSV."""
-#     import os
-#     import glob, shutil
-#
-#     os.environ.get("HADOOP_HOME")
-#     os.popen("where winutils").read()
-#
-#     tmp = str(path) + "_tmp"
-#     df.coalesce(1).write.mode("overwrite").option("header", "true").csv(tmp)
-#     parts = glob.glob(f"{tmp}/part-*.csv")
-#     if parts:
-#         shutil.move(parts[0], str(path))
-#     shutil.rmtree(tmp, ignore_errors=True)
-
-
 # ─────────────────────────────────────────────────────────────────────────────
 # ANALYTICS TABLES
 # ─────────────────────────────────────────────────────────────────────────────
@@ -80,7 +64,6 @@ def build_subscriber_summary(enriched):
         )
         .orderBy("billing_country", "plan_tier")
     )
-
 
 def build_monthly_revenue(enriched):
     """
@@ -117,9 +100,9 @@ def run() -> None:
     enriched_path = str(STAGED_DIR / STAGED_FILES["enriched_subscriptions"])
     log.info(f"Reading enriched_subscriptions from staged_files/ …")
     enriched_schema = StructType([
-        StructField("subscription_id",         StringType(),  True),
+        StructField("subscriber_id",         StringType(),  True),
         StructField("plan_id",                 StringType(),  True),
-        StructField("subscriber_id",           StringType(),  True),
+        StructField("subscription_id",           StringType(),  True),
         StructField("subscription_start_date", DateType(),    True),
         StructField("subscription_end_date",   DateType(),    True),
         StructField("status",                  StringType(),  True),
@@ -141,6 +124,9 @@ def run() -> None:
         StructField("signup_date",             DateType(),    True),
     ])
     enriched = spark.read.csv(enriched_path, header=True, schema=enriched_schema)
+    string_cols = [f.name for f in enriched.schema.fields if str(f.dataType) == "StringType()"]
+    for col in string_cols:
+        enriched = enriched.withColumn(col, F.trim(F.col(col)))
     log.info(f"Loaded {enriched.count()} rows")
 
     # ── Build analytics tables ───────────────────────────────────────────────

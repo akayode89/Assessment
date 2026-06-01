@@ -88,35 +88,6 @@ def is_valid_email_udf(val):
         return False
     return bool(re.match(r"^[^@\s]+@[^@\s]+\.[^@\s]+$", str(val).strip()))
 
-
-# def write_single_csv(df, path: Path) -> None:
-#     """
-#     Coalesce to 1 partition and write a clean single-file CSV.
-#     Spark writes to a temp directory first then the part file is renamed.
-#     """
-#     import os
-#     import glob, shutil
-#
-#     os.environ.get("HADOOP_HOME")
-#     os.popen("where winutils").read()
-#     tmp = str(path) + "_tmp"
-#     df.printSchema()
-#     print(glob.glob(f"{tmp}/*"))
-#     try:
-#         df.coalesce(1).write.mode("overwrite").option("header", "true").csv(tmp)
-#     except Exception as e:
-#         import traceback
-#         traceback.print_exc()
-#         raise
-#     parts = glob.glob(f"{tmp}/part-*.csv")
-#     print(glob.glob(f"{tmp}/*"))
-#     if parts:
-#         if os.path.exists(str(path)):
-#             os.remove(str(path))
-#         shutil.move(parts[0], str(path))
-#     shutil.rmtree(tmp, ignore_errors=True)
-
-
 # ─────────────────────────────────────────────────────────────────────────────
 # TRANSFORMATION STEPS
 # ─────────────────────────────────────────────────────────────────────────────
